@@ -1,0 +1,141 @@
+div#fixheader{
+	/*position: fixed;*/	
+	width:100%;
+	color:#C50202;
+	background:#d3d3d3;
+	padding:20px;
+	height: 180px;
+
+}
+
+div#logo{
+	float: left;
+	margin-right: 40px;
+	
+}
+
+#menu{
+	float: right;
+	padding-right:20px;
+}
+
+#header{
+	font-size: 2em;
+	
+}
+
+.btn-menu{
+	border: none;
+	border-radius: 15px;
+	padding: 10px 10px;
+	font-size: 16px;
+	background-color:  #801515;
+}
+
+.btn-color{
+	color:white;
+}
+
+.btn-menu:hover {
+    background-color:#d3d3d3;
+   
+}
+
+
+.registracija{
+	padding-top: 20px;
+	padding-left: 450px;
+	/*background-image: url("zgrada3.jpg");
+	background-repeat: no-repeat;
+	*/
+	text-align: left;
+}
+
+.label1{
+	display: inline-block;
+	width: 200px;
+	
+}
+
+.input1{
+	display: inline-block;
+	width: 233px;
+}
+
+#pol{
+	display: inline-block;
+	width: 233px;
+}
+#delegat{
+	display: inline-block;
+	width: 233px;
+}
+
+.reg-potvrda{
+	padding-top:20px;
+	margin-left:142px;
+	
+}
+
+
+footer{
+	background:#d3d3d3;
+	
+}
+
+
+
+.main-div{
+	padding-top:20px;
+	padding-bottom:40px;
+	width: 80%;
+	margin: 0 auto; 
+	text-align:;
+	border: 1px solid green;
+	background-color:#d3d3d3;
+	}
+
+
+
+.right{
+	float: right;
+	border: 1px solid red;
+	width: 350px;
+	margin-right:30px;
+	
+	
+	
+}
+
+.main{
+	
+	border: 1px solid blue;
+	width: 650px;
+	margin-left: 30px;
+}
+
+
+.slika-div{
+	 margin-left: auto;
+    margin-right: auto;
+	margin-bottom: 20px;
+	width: 220px;
+}
+.slika{
+	width:220px;
+}
+
+.date{
+	float:right;
+	margin-top:-33px;
+}
+.vest{
+	padding:5px 15px 10px 15px;
+	height:200px;
+	overflow: hidden;
+	
+	margin-bottom:30px;
+	background-color: rgba(102,0,0,.8);
+	color: white;
+	
+}
