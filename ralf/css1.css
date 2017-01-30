@@ -1,12 +1,17 @@
 div#fixheader{
 	/*position: fixed;*/	
-	width:100%;
-	color:#C50202;
-	background:#d3d3d3;
+	width:80%;
+	background:#0F0F0F;
 	padding:20px;
 	height: 180px;
+	margin: auto;
 
 }
+
+body{
+	background-color: #000;
+}
+
 
 div#logo{
 	float: left;
@@ -21,6 +26,8 @@ div#logo{
 
 #header{
 	font-size: 2em;
+	text-shadow: 2px 2px 8px #45FFBF;
+	color:white;
 	
 }
 
@@ -29,7 +36,7 @@ div#logo{
 	border-radius: 15px;
 	padding: 10px 10px;
 	font-size: 16px;
-	background-color:  #801515;
+	background-color:  #57C482;
 }
 
 .btn-color{
@@ -37,7 +44,7 @@ div#logo{
 }
 
 .btn-menu:hover {
-    background-color:#d3d3d3;
+    background-color:#0F0F0F;
    
 }
 
@@ -79,7 +86,7 @@ div#logo{
 
 
 footer{
-	background:#d3d3d3;
+	background:#0F0F0F;
 	
 }
 
@@ -91,25 +98,23 @@ footer{
 	width: 80%;
 	margin: 0 auto; 
 	text-align:;
-	border: 1px solid green;
-	background-color:#d3d3d3;
+	
+	background-color:#0F0F0F;
 	}
 
 
 
 .right{
+	/*border: 1px solid red;*/
 	float: right;
-	border: 1px solid red;
 	width: 350px;
 	margin-right:30px;
-	
-	
-	
+	position: relative;
 }
 
 .main{
 	
-	border: 1px solid blue;
+	
 	width: 650px;
 	margin-left: 30px;
 }
@@ -133,9 +138,49 @@ footer{
 	padding:5px 15px 10px 15px;
 	height:200px;
 	overflow: hidden;
-	
+	text-overflow: ellipsis; /*ne radi treba da budu ... */
 	margin-bottom:30px;
-	background-color: rgba(102,0,0,.8);
+	background-color: black; /* rgba(102,0,0,.8);*/
 	color: white;
 	
+}
+.main-div h1{
+	text-align:center; 
+	color:#57C482;
+	font-size: 2em;
+	margin-bottom: 30px;
+}
+
+.naslov-vesti: hover {
+	color:white; /*ne radi*/
+	text-decoration:none;
+
+}
+.naslov-vesti{
+	color: #57C482;
+	font-size: 0.7em;
+}
+
+#jos-slika{
+	/*border: 1px solid red;*/
+	
+	position: absolute;
+	right:65px; /* 350-220=130/2 */
+	bottom:-22px;
+	color: #57C482;
+	text-decoration: underline;
+	
+}
+
+a#jos-slika:hover{
+	color:white;
+}
+
+
+
+
+/*galerija*/
+.slike{
+	margin-left:auto;
+	margin-right:auto;
 }
