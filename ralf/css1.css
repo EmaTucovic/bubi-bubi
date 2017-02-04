@@ -56,13 +56,12 @@ div#logo{
 
 
 .registracija{
-	padding-top: 20px;
-	padding-left: 450px;
-	/*background-image: url("zgrada3.jpg");
-	background-repeat: no-repeat;
-	*/
-	text-align: left;
+	
+	margin:auto;
+	width:450px;
+	text-align: justify;
 }
+
 
 .label1{
 	display: inline-block;
@@ -99,6 +98,7 @@ footer{
 
 
 .main-div{
+	
 	padding-top:20px;
 	padding-bottom:40px;
 	width: 80%;

@@ -40,9 +40,9 @@
 			
 		
 	<div id = "fixheader">
-		<div id = "logo"> <img src = "logo2.jpg" alt="logo" style = "width:130px"> </div>
+		<div id = "logo"> <img src = "logo3.png" alt="logo" style = "width:130px"> </div>
 		
-			<p ><span id="header">Ovo je header sa naslovom logom i navigacijom.</span>
+			<p ><span id="header">Alumni ETF-a</span>
 		
 		
 		<span id="menu">
@@ -63,6 +63,7 @@
 	
 	
 	
+	<div class = "main-div">
 	<div class = "registracija">
 	<form name="form_registracija" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post"  enctype="multipart/form-data">
             <span  class="label1"> <label for="korisnicko_ime"> Korisnicko ime </label></span>
@@ -149,6 +150,8 @@
 			</span>
 			</div>
 	</form>
+	</div>
+	
 	</div>
 	
 	<footer>
