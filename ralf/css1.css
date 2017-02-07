@@ -1,43 +1,42 @@
-div#fixheader{
+.header{
 	/*position: fixed;*/	
-	width:80%;
-	background:#0F0F0F;
-	padding:20px;
-	height: 180px;
+	width:100%;
+	/*background:#91AD9C;*/
+	
+	/*height: 200px;*/
 	margin: auto;
+	padding-top:10px;
+	width:80%;
+	border-left:1px solid #999999;
+	border-right:1px solid #999999;
+	background-color:white;
 
 }
 
-body{
-	background-color: #000;
-}
-
-
-div#logo{
+#logo{
 	float: left;
 	margin-right: 40px;
+	margin-left:20px;
+	margin-bottom:10px;
+	
 	
 }
+
 
 #menu{
 	float: right;
 	padding-right:20px;
 }
 
-#header{
-	font-size: 2em;
-	text-shadow: 2px 2px 8px #45FFBF;
-	color:white;
-	
-}
-
-.btn-menu{
+/*.btn-menu{
 	border: none;
 	border-radius: 15px;
 	padding: 10px 10px;
 	font-size: 16px;
-	background-color:  #57C482;
-}
+	background-color:  #0e4d94;
+	height: 70%;
+	margin-top:10px;
+}*/
 
 .btn-color{
 	color:white;
@@ -49,9 +48,46 @@ div#logo{
 }
 
 .btn-menu:hover {
-    background-color:#0F0F0F;
+    background-color:#91AD9C;
 	color: white;
    
+}
+
+body{
+	background-image: url("wild_flowers.png");
+	
+}
+
+
+
+#header{
+	font-size: 2em;
+	text-shadow: 2px 2px 8px #0e4d94;
+	color:white;
+	
+}
+
+.clear{
+	clear:both;
+}
+
+#navigacija{
+	height:40px;
+	background-color:#0e4d94;
+	padding-left:0px;
+	padding-right:0px;
+	position:relative;
+}
+
+.navigacija-lista{
+	list-style-type:none;
+	position:absolute;
+	top:10px;
+}
+
+.navigacija-lista li{
+	display:inline;
+	margin-right:20px;
 }
 
 
@@ -91,7 +127,9 @@ div#logo{
 
 
 footer{
-	background:#0F0F0F;
+	background:#91AD9C;
+	width:80%;
+	margin:auto;
 	
 }
 
@@ -99,21 +137,23 @@ footer{
 
 .main-div{
 	
-	padding-top:20px;
-	padding-bottom:40px;
+	padding:20px 20px 40px 20px;
 	width: 80%;
 	margin: 0 auto; 
 	text-align:;
 	height:100%;
-	background-color:#0F0F0F;
+	/*background-color:#91AD9C;*/
 	position:relative;
-	overflow:auto;
+	overflow:hidden;
+	border-left:1px solid #999999;
+	border-right:1px solid #999999;
+	background-color:white;
 	}
 
 
 
 .right{
-	
+	border-left: 1px solid #999999;
 	float: right;
 	width: 350px;
 	margin-right:30px;
@@ -147,13 +187,14 @@ footer{
 	overflow: hidden;
 	text-overflow: ellipsis; /*ne radi treba da budu ... */
 	margin-bottom:30px;
-	background-color: black; /* rgba(102,0,0,.8);*/
-	color: white;
+	/*background-color: black;  
+	color: white;*/
+	color:#1468b1;
 	
 }
 .main-div h1{
 	text-align:center; 
-	color:#57C482;
+	color:#0ABD49;
 	font-size: 2em;
 	margin-bottom: 30px;
 }
@@ -165,7 +206,7 @@ footer{
 }
 
 .vest .naslov{
-	color: #57C482;
+	color: #0ABD49;
 	font-size: 0.7em;
 }
 
@@ -175,8 +216,9 @@ footer{
 	overflow: hidden;
 	text-overflow: ellipsis; /*ne radi treba da budu ... */
 	margin-bottom:30px;
-	background-color: black; 
-	color: white;
+	/*background-color: black; 
+	color: white;*/
+	color:#1468b1;
 	
 }
 
@@ -191,7 +233,7 @@ footer{
 	position: absolute;
 	right:65px; /* 350-220=130/2 */
 	bottom:-22px;
-	color: #57C482;
+	color: #0ABD49;
 	text-decoration: none;
 	
 }
