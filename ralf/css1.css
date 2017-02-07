@@ -40,6 +40,7 @@
 
 .btn-color{
 	color:white;
+        text-decoration:none;
 }
 
 .btn-color:hover{
@@ -80,6 +81,7 @@ body{
 }
 
 .navigacija-lista{
+        margin: 0px;
 	list-style-type:none;
 	position:absolute;
 	top:10px;
@@ -137,7 +139,7 @@ footer{
 
 .main-div{
 	
-	padding:20px 20px 40px 20px;
+	/*padding:20px 20px 40px 20px;*/
 	width: 80%;
 	margin: 0 auto; 
 	text-align:;
@@ -150,7 +152,9 @@ footer{
 	background-color:white;
 	}
 
-
+#cela_vest{
+    padding:30px 30px 40px 30px;
+}
 
 .right{
 	border-left: 1px solid #999999;
