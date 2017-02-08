@@ -34,8 +34,47 @@
 }*/
 .dugme{
 	color:white;
-    text-decoration:none;
+    	text-decoration:none;
 	transition: all .2s ease-in-out; 
+}
+
+/* Padajuci meni */
+.padajuci_meni_dugme{
+    cursor: pointer;
+    color:white;
+    display: inline-block;
+}
+.padajuci_meni {
+    position: relative;
+    display: inline-block;
+}
+
+.padajuci_meni_sadrzaj {
+    display: none;
+    position: absolute;
+    left:0px;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.padajuci_meni_sadrzaj a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.padajuci_meni_sadrzaj a:hover {background-color: #f1f1f1}
+
+.padajuci_meni:hover .padajuci_meni_sadrzaj {
+    display: block;
+}
+
+.padajuci_meni:hover .padajuci_meni_dugme {
+    background-color: #3e8e41;
 }
 
 .dugme:hover{
