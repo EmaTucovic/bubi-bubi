@@ -10,6 +10,7 @@
 	border-left:1px solid #999999;
 	border-right:1px solid #999999;
 	background-color:white;
+	background: -webkit-linear-gradient(left, white, #0e4d94);
 
 }
 
@@ -22,16 +23,57 @@
 	
 }
 
+#login{
+	float: right;
+	height: 80px;
+	border-left: 1px solid #999;
+	padding-left: 10px;
+	margin-right: 20px;
+	position:relative;
+	text-align:right;
+	overflow:hidden; /* da se rastegne*/
+	color: #051258;
+	
+}
 
-/*.btn-menu{
-	border: none;
-	border-radius: 15px;
-	padding: 10px 10px;
-	font-size: 16px;
-	background-color:  #0e4d94;
-	height: 70%;
-	margin-top:10px;
-}*/
+#login img{
+	width:50px;
+	margin-bottom:10px;
+	
+}
+
+
+#naslov_ETF{
+	font-size: 2.5em;
+	text-shadow: 2px 2px 8px #0e4d94;
+	color:white;
+	
+}
+
+.clear{
+	clear:both;
+}
+
+#navigacija{
+	height:40px;
+	background-color:#0e4d94;
+	padding-left:0px;
+	padding-right:0px;
+	position:relative;
+	
+}
+
+.navigacija-lista{
+        margin: 0px;
+	list-style-type:none;
+	position:absolute;
+	top:10px;
+}
+
+.navigacija-lista li{
+	display:inline;
+	margin-right:20px;
+}
 .dugme{
 	color:white;
     	text-decoration:none;
@@ -92,36 +134,7 @@ body{
 
 
 
-#naslov_ETF{
-	font-size: 2.5em;
-	text-shadow: 2px 2px 8px #0e4d94;
-	color:white;
-	
-}
 
-.clear{
-	clear:both;
-}
-
-#navigacija{
-	height:40px;
-	background-color:#0e4d94;
-	padding-left:0px;
-	padding-right:0px;
-	position:relative;
-}
-
-.navigacija-lista{
-        margin: 0px;
-	list-style-type:none;
-	position:absolute;
-	top:10px;
-}
-
-.navigacija-lista li{
-	display:inline;
-	margin-right:20px;
-}
 
 /*registracija                      */
 
@@ -162,9 +175,10 @@ body{
 
 
 footer{
-	background:#91AD9C;
+	background:#0e4d94;
 	width:80%;
 	margin:auto;
+	color: #051258;
 	
 }
 
@@ -237,8 +251,8 @@ footer{
 	/*color:#5395B1;*/
 	font-size: 2em;
 	margin-bottom: 30px;
-	/*only for chrome*/
-	background: -webkit-linear-gradient(left, #0ABD49, #5395B1);
+	/*only for chrome #0ABD49, #5395B1*/
+	background: -webkit-linear-gradient(left, green, blue);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -277,7 +291,8 @@ footer{
 	position: absolute;
 	right:65px; /* 350-220=130/2 */
 	bottom:0px;
-	color: #0ABD49;
+	color: #0e4d94;
+	font-weight: bold;
 	text-decoration: none;
 	
 }
